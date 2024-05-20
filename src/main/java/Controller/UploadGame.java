@@ -155,7 +155,6 @@ public class UploadGame extends HttpServlet {
 		}
 		return false;
 	}
-
 	private boolean startsWith(byte[] fileHeader, byte[] magic) {
 		for (int i = 0; i < magic.length; i++) {
 			if (fileHeader[i] != magic[i]) {
